@@ -1,15 +1,15 @@
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+first_name = input("Enter your first intial: ")
+last_name = input("Enter your last initial: ")
 food = "Tofu"
 email = "hello123@gmail.com"
 age = 18
-quantity = 10
+quantity = 12
 num_of_students = 30
 price = 10.99
 gpa = 4.2
-distance = 5.5
-is_student = True
-for_sale = False
+distance = 9.10
+is_student = False
+for_sale = True
 print(f"Hello {first_name} {last_name}")
 print(f"You like {food}")
 print(f"Your email is {email}")
