@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Notes</h2>
+<form action="/add_note" method="POST">
+    <input name="content" placeholder="New note..." required>
+    <button type="submit">Add Note</button>
+  </form>
+  <hr>
+  <ul>
+    {% for note in notes %}
+      <li>{{note[0]}}</li>
+    {% else %}
+      <li>No notes yet.</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
